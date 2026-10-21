@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Permission d'accès à Internet pour télécharger la liste de filtrage distante -->
     <uses-permission android:name="android.permission.INTERNET" />
+    
+    <!-- Permission pour exécuter le service VPN en arrière-plan -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
