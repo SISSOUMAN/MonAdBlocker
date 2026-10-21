@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "MonAdBlocker"
-include(":app")")
+include(":app")
