@@ -28,9 +28,3 @@ jobs:
         with:
           name: MonAdBlocker-APK
           path: app/build/outputs/apk/debug/app-debug.apk
-
-      - name: Upload APK
-        uses: actions/upload-artifact@v3
-        with:
-          name: MonAdBlocker-APK
-          path: app/build/outputs/apk/debug/app-debug.apk
