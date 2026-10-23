@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/app/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Permissions pour Internet et le service VPN -->
+    <!-- Permissions requises pour Internet et le service VPN -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
